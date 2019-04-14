@@ -1,0 +1,12 @@
+<div class="container-fluid">
+  <div class="jumbotron">
+    <h2>Angular main app component</h2>
+    <vue-component 
+      name="HelloComponent"
+      v-props-first-name="$ctrl.person.firstName"
+      v-props-last-name="$ctrl.person.lastName"
+      v-props-description="$ctrl.person.description"
+      v-on-hello="$ctrl.displayHello"
+    ></vue-component>
+  </div>
+</div>
